@@ -4,7 +4,7 @@ public class PrivateCar extends Vehicle{
     private static final double BASE_CHARGE = 20;
 
     public PrivateCar(String numberPlate) {
-        super(numberPlate);
+        super(numberPlate, VehicleType.PRIVATE_CAR);
     }
 
 

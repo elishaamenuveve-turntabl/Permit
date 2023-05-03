@@ -8,7 +8,7 @@ public class Motorbike extends Vehicle{
     private Double sizeInCC;
 
     public Motorbike(String numberPlate, Double sizeInCC) {
-        super(numberPlate);
+        super(numberPlate, VehicleType.MOTORBIKE);
         this.sizeInCC = sizeInCC;
     }
 

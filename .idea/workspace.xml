@@ -5,31 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b62c4e3e-d357-4409-9495-4051eaaf477f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alternatetown/ChargesCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alternatetown/PermitManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alternatetown/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alternatetown/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/exception/IllegalRequestorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/permit/PermitManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/BuildingSiteVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Motorbike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/PrivateCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/alternatetown/ChargesCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/alternatetown/VehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/town/permit/PermitManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/town/vehicle/BuildingSiteVehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/town/vehicle/MotorbikeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/town/vehicle/PrivateCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/service/PermitIssuerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/service/VerificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/town/permit/PermitManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/town/permit/PermitManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/town/vehicle/BuildingSiteVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/BuildingSiteVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Motorbike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/town/vehicle/PrivateCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/PrivateCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/town/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/town/permit/PermitManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/town/permit/PermitManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -68,6 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/gerald.addo-tetteh/Documents/lab_work/java_programming/Permit",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -85,7 +73,7 @@
       <recent name="org.town.permit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChargesCalculatorTest.MotorBikeChargeTest">
+  <component name="RunManager" selected="JUnit.PermitManagerTest.returnsExceptionOnUnregisteredPerson">
     <configuration name="ChargesCalculatorTest.ConstructionChargeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Permit" />
       <extension name="coverage">
@@ -134,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermitManagerTest.returnsPermitOnRegisteredOwnerUnmocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermitManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Permit" />
       <extension name="coverage">
         <pattern>
@@ -144,27 +132,34 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.town.permit" />
       <option name="MAIN_CLASS_NAME" value="org.town.permit.PermitManagerTest" />
-      <option name="METHOD_NAME" value="returnsPermitOnRegisteredOwnerUnmocked" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="town in Permit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermitManagerTest.returnsExceptionOnUnregisteredPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Permit" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/org/town" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.town.permit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.town.permit" />
+      <option name="MAIN_CLASS_NAME" value="org.town.permit.PermitManagerTest" />
+      <option name="METHOD_NAME" value="returnsExceptionOnUnregisteredPerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermitManagerTest.returnsExceptionOnUnregisteredPerson" />
+        <item itemvalue="JUnit.PermitManagerTest" />
         <item itemvalue="JUnit.ChargesCalculatorTest.MotorBikeChargeTest" />
         <item itemvalue="JUnit.ChargesCalculatorTest.ConstructionChargeTest" />
         <item itemvalue="JUnit.ChargesCalculatorTest.privateCarChargeTest" />
-        <item itemvalue="JUnit.town in Permit" />
-        <item itemvalue="JUnit.PermitManagerTest.returnsPermitOnRegisteredOwnerUnmocked" />
       </list>
     </recent_temporary>
   </component>
@@ -198,20 +193,20 @@
     <SUITE FILE_PATH="coverage/Permit$BuildingSiteVehicleTest.ic" NAME="BuildingSiteVehicleTest Coverage Results" MODIFIED="1683026701292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.town.vehicle.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Permit$MotorbikeTest.ic" NAME="MotorbikeTest Coverage Results" MODIFIED="1683026473826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.town.vehicle.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Permit$org_town_vehicle_in_Permit.ic" NAME="org.town.vehicle in Permit Coverage Results" MODIFIED="1683028525077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.town.vehicle.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Permit$org_town_in_Permit.ic" NAME="org.town in Permit Coverage Results" MODIFIED="1683028705064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.town.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Permit$PrivateCarTest.ic" NAME="PrivateCarTest Coverage Results" MODIFIED="1683027969041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.town.vehicle.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Permit$town_in_Permit.ic" NAME="town in Permit Coverage Results" MODIFIED="1683030575708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Permit$PermitManagerTest.ic" NAME="PermitManagerTest Coverage Results" MODIFIED="1683027864102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Permit$PermitManagerTest.ic" NAME="PermitManagerTest Coverage Results" MODIFIED="1683110039435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.town.permit.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Permit$MotorbikeTest.ic" NAME="MotorbikeTest Coverage Results" MODIFIED="1683026473826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Permit$PrivateCarTest.ic" NAME="PrivateCarTest Coverage Results" MODIFIED="1683027969041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.town.vehicle.*</FILTER>
     </SUITE>
   </component>

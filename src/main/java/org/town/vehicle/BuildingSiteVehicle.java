@@ -7,7 +7,7 @@ public class BuildingSiteVehicle extends Vehicle{
     private double capacity;
 
     public BuildingSiteVehicle(String numberPlate, double capacity) {
-        super(numberPlate);
+        super(numberPlate,VehicleType.CONSTRUCTION_VEHICLE);
         this.capacity = capacity;
     }
 

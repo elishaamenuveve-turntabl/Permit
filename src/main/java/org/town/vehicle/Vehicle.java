@@ -9,9 +9,11 @@ public abstract class Vehicle {
     private List<Person> registeredOwners;
     private String numberPlate;
     private String permitNumber;
+    private final VehicleType vehicleType;
 
-    public Vehicle(String numberPlate) {
+    public Vehicle(String numberPlate, VehicleType vehicleType) {
         this.numberPlate = numberPlate;
+        this.vehicleType = vehicleType;
     }
 
     public abstract double generateCharge();
@@ -27,6 +29,10 @@ public abstract class Vehicle {
 
     public String getNumberPlate() {
         return numberPlate;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
     }
 
     public void setNumberPlate(String numberPlate) {
@@ -46,12 +52,11 @@ public abstract class Vehicle {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Vehicle vehicle = (Vehicle) o;
-        return numberPlate.equals(vehicle.numberPlate);
+        return numberPlate.equals(vehicle.numberPlate) && vehicleType == vehicle.vehicleType;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(numberPlate);
+        return Objects.hash(numberPlate, vehicleType);
     }
-
 }
